@@ -28,9 +28,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/hackyou19/holatext/main/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/Angeleas/holatext/main/Node.js.lnk -OutFile Node.js.lnk
 
-        Invoke-WebRequest https://raw.githubusercontent.com/hackyou19/holatext/main/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/Angeleas/holatext/main/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
 
     - name: Extracting Ngrok File.
 
